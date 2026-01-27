@@ -1,0 +1,70 @@
+@font-face {
+    font-family: tetris;
+    src: url(./fonts/Tetris.ttf);
+}
+
+table {
+    margin: auto;
+    background-color: #000;
+}
+
+body {
+    background-image: url(./img/fondo.jpg);
+    background-size: cover;
+    font-family: Tetris;
+    font-size: 20px;
+    color: whitesmoke;
+}
+
+td {
+    border: 5px;
+    background-color: grey;
+    border-color:grey;
+    border-style: outset;
+    width: 20px;
+    height: 20px;
+}
+
+#amarillo {
+    background-color: #FFFF00;
+    border-color:#FFFF00;
+}
+
+
+#naranja {
+    background-color: #f99f0d;
+    border-color:#f99f0d;
+}
+
+#azulclaro {
+    background-color: #22ebf9;
+    border-color:#22ebf9;
+}
+
+#azuloscuro {
+    background-color: blue;
+    border-color:blue;
+}
+
+#verde {
+    background-color: #a1f30a;
+    border-color:#a1f30a;
+}
+
+
+#rojo {
+    background-color: red;
+    border-color:red;
+}
+
+
+#morado {
+    background-color: #61108c;
+    border-color:#61108c;
+}
+
+
+#vacio {
+    background-color: transparent;
+    border: none;
+}
