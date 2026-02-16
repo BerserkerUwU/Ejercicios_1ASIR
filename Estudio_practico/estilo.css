@@ -1,0 +1,116 @@
+/*Ajustes de Body*/
+body {
+    background-color:blanchedalmond;
+    text-align: center;
+    justify-content: left;
+}
+
+/*Ajustes de la cabecera*/
+.cabecera {
+    overflow: hidden;
+    margin-bottom: -25px;
+}
+.logo {
+    float: left;
+}
+
+.logo img{
+    width: 150px;
+    height: auto;
+}
+
+.menu {
+    float: right;
+    padding-right: 50px;
+}
+
+.menu a {
+    float: left;
+    padding: 13px;
+    margin-top: 20px ;
+    text-decoration: none;
+    color: black;
+}
+
+.menu a:hover {
+    color: orange;
+    border-bottom: 1px solid;
+}
+
+/*Configuracion del Banner*/
+.banner {
+    background-image: url(./img/banner.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    display: block;
+    height: 600px;
+}
+
+.titulo_main {
+    color: whitesmoke;
+    width: 400px;
+    padding: 150px 120px 10px 120px;
+}
+
+/*Ajustes de boton*/
+.btn {
+    margin-top: -100px;
+    margin-left: -890px;
+    color: black;
+    background-color: blanchedalmond;
+    padding: 10px;
+    border-radius: 15px;
+    text-decoration: none;
+    text-align: left;
+}
+
+.btn:hover {
+    background-color:rgb(255, 202, 122);
+}
+/*Ajustes de cartas*/
+
+.card {
+    display: inline-block;
+    margin: 10px;
+}
+
+.card img {
+    width: 300px;
+    height: 300px;
+    border-radius: 15px;
+}
+
+/*Formulario*/
+.formulario {
+    width: 600px;
+    margin: 20px auto;
+    background-color: rgb(255, 200, 128);
+    padding: 20px;
+    border-radius: 10px;
+}
+
+.seccion {
+    border: 1px solid #3498db;
+    background-color: rgb(255, 200, 128);
+    margin-bottom: 30px;
+    padding: 15px;
+    border-radius: 8px;
+}
+
+.seccion legend {
+    color:black;
+    font-size: 25px;
+}
+
+.campo {
+    margin-top: 10px;
+    display: block;
+}
+
+.entrada {
+    width: 100%;
+    padding: 6px;
+    border: 1px solid #000000;
+    border-radius: 5px;
+}

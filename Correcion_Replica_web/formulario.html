@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./estilo.css">
+    <title>Hacker</title>
+</head>
+
+<body>
+    <header class="header">
+        <div class="logo">Web Lenguaje de Marcas</div>
+        <nav class="menu">
+            <a href="index.html">Inicio</a>
+            <a href="formulario.html">Servicios</a>
+            <a href="#">Github</a>
+            <a href="#">Linkedin</a>
+        </nav>
+    </header>
+
+    <!-- Insertamos formularios -->
+    <h1 id="tituloFormulario">Formulario de peticion de servicios</h1>
+    <form action="mailto:raul.rodriguez@universidadeuropea.es" id="formulario" method="post">
+
+        <!-- DATOS PERSONALES -->
+        <fieldset class="seccion">
+            <legend>Datos Personales</legend>
+
+            <label class="campo">Nombre:
+                <input type="text" class="entrada">
+            </label>
+
+            <label class="campo">Email:
+                <input type="email" class="entrada">
+            </label>
+
+            <label class="campo">Password:
+                <input type="password" class="entrada">
+            </label>
+
+        </fieldset>
+
+        <!-- DATOS GENERO -->
+        <fieldset class="seccion">
+            <legend>Género</legend>
+            <label><input type="radio" name="genero">Hombre</label>
+            <label><input type="radio" name="genero">Mujer</label>
+        </fieldset>
+
+        <!-- Interes -->
+        <fieldset class="seccion">
+            <legend>Género</legend>
+            <label><input type="checkbox">Desarrollo</label>
+            <label><input type="checkbox">Hacking</label>
+            <label><input type="checkbox">Otros</label>
+        </fieldset>
+
+        <!-- Mensaje -->
+        <fieldset class="seccion">
+            <legend>Comentarios</legend>
+            <textarea class="entrada" row="4"></textarea>
+        </fieldset>
+        
+        <div id="botones">
+            <button class="boton enviar" type="submit">Enviar Mensajes</button>
+            <button class="boton borrar" type="reset">Borrar</button>
+        </div>
+    </form>
+
+    <footer class="footer">
+        &#169 2026 Web ASIR
+    </footer>
+</body>
+
+</html>

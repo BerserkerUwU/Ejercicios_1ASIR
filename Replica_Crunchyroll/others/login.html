@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../crunchyroll.css">
+    <link rel="shortcut icon" href="../img/icons8-crunchyroll-48.png" type="image/x-icon">
+    <title>Document</title>
+</head>
+
+<body class="cuerpo_form">
+    <!-- Estructura del Header -->
+    <header class="cabecera">
+        <img src="../img/crunchyroll-Logo.png" alt="logo">
+        <ul>
+            <li><a href="../index.html">Novedades</a> </li>
+            <li><a href="#">Popular</a> </li>
+            <li><a href="#">Simulcast</a> </li>
+            <li>
+                <a href="#">Categorias</a>
+                <ul>
+                    <li><a href="#">Ver Todo (A-Z)</a></li>
+                    <li><a href="#">Calendario de lanzamiento</a></li>
+                    <li><a href="#">Videos musicales y conciertos</a></li>
+                </ul>
+            </li>
+        </ul>
+
+        <ul class="login">
+            <li>
+                <a href="./others/login.html">Login</a>
+            </li>
+        </ul>
+    </header>
+
+    <!-- Estructura del Formulario -->
+    <form action="mailto:alejandro@gmail.com" class="formulario">
+        <fieldset class="cajas">
+            <legend>Datos Personales</legend>
+            Nombre
+            <input type="text" class="entrada" placeholder="Antonio Fernandez">
+            <br>Apellidos
+            <input type="text" class="entrada" placeholder="Fuentes Costilla">
+            <br>Correo
+            <input type="email" class="entrada" placeholder="demoniodelasredes@gmail.com">
+            <br>Contraseña
+            <input type="password" class="entrada" placeholder="Arroz_C0N!Sop4*78">
+            <br>Tlf
+            <input type="tel" class="entrada" placeholder="+34 605 234 954">
+        </fieldset>
+
+        <fieldset class="cajas">
+            <legend>Datos Bancarios</legend>
+            Numero de Tarjeta
+            <input type="text" class="entrada" placeholder="4394 8248 2343 2492">
+            <br>Fecha de Caducidad
+            <input type="date" class="entrada">
+            <br>CVV
+            <input type="text" class="entrada" placeholder="403">
+        </fieldset>
+        <fieldset class="cajas">
+            <legend>Gustos Personales</legend>
+            Generos Favoritos
+            <input type="checkbox" class="entrada">
+            <br>Preferencias
+            <input type="checkbox" class="entrada">
+            <br>Opinion extra
+            <textarea name="" id="" placeholder="Header"></textarea>
+        </fieldset>
+
+        <button type="submit">Enviar</button>
+        <button type="reset">Borrar</button>
+    </form>
+</body>
+
+</html>

@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../estilo.css">
+    <title>Contacto</title>
+</head>
+
+<body>
+    <header class="cabecera">
+        <div class="logo">
+            <img src="../img/logo.png" alt="logo">
+        </div>
+        <nav class="menu">
+            <a href="../index.html">Inicio</a>
+            <a href="#">Menú 3D</a>
+            <a href="#">Libreria Manga</a>
+            <a href="#">Sobre Nosotros</a>
+            <a href="./contacto.html">Contacto</a>
+        </nav>
+    </header>
+
+    <section class="formulario">
+        <form action="mailto:luisfernandoquemasda@gmail.com" method="post" name="formulario_contacto">
+            <!-- Datos del Usuario -->
+            <fieldset class="seccion">
+                <legend>Datos Personales</legend>
+                <label class="campo">
+                    Nombre:
+                    <input type="text" placeholder="Carlos Muñóz" class="entrada">
+                </label>
+                <label class="campo">
+                    Correo:
+                    <input type="email" placeholder="buzondedios@gmail.com" class="entrada">
+                </label>
+                <label class="campo">
+                    Teléfono:
+                    <input type="tel" placeholder="+34 678 345 103" class="entrada">
+                </label>
+            </fieldset>
+
+            <!-- Datos de la Reserva -->
+            <fieldset class="seccion">
+                <legend>Datos de Reserva</legend>
+                <label class="campo">
+                    Fecha de Reserva:
+                    <input class="entrada" type="date">
+                </label>
+                <label class="campo">
+                    Hora de Reserva:
+                    <input class="entrada" type="time">
+                </label class="campo">
+                <label>
+                    Tlf de Respaldo:
+                    <input class="entrada" type="tel" placeholder="+34 639 345 296">
+                </label>
+            </fieldset>
+
+            <!-- Comentarios del Usuraio -->
+             <fieldset class="seccion">
+                <legend>Comentarios</legend>
+                <textarea id="comentarios" rows="5" cols="70" placeholder="Me gustaría preparar algo romántico, para poder pedirle matrimonio a mi novia"></textarea>
+             </fieldset>
+             <input class="boton_form" type="submit" value="Enviar">
+        </form>
+    </section>
+
+    <footer>&#169 2026 Web ASIR</footer>
+</body>
+
+</html>

@@ -1,0 +1,177 @@
+/*Fuentes*/
+@font-face {
+    font-family: "hell";
+    src: url(./fonts/RabBrush.ttf);
+}
+
+/*Ajustes generales*/
+* {
+    margin: 0px;
+    padding: 0px;
+}
+
+/*Ajustes body*/
+body {
+    background-color: black;
+}
+
+/*Ajustes de header*/
+.cabecera {
+    background-color: rgb(42, 40, 40);
+    overflow: hidden;
+}
+
+.cabecera img {
+    width: 90px;
+    height: 50px;
+    float: left;
+    margin: auto 10px;
+}
+
+ul {
+    list-style: none;
+}
+
+.cabecera li a {
+    text-decoration: none;
+    color: rgb(170, 159, 159);
+    background-color: rgb(42, 40, 40);
+    padding: 10px 15px;
+    display: block;
+    font-size: 20px;
+}
+
+.cabecera li {
+    float: left;
+    margin: 5px 20px;
+}
+
+.cabecera li a:hover {
+    background-color: rgb(26, 25, 24);
+    color: whitesmoke;
+}
+
+.cabecera li ul {
+    display: none;
+    position: absolute;
+    min-width: 150px;
+}
+
+.cabecera li:hover>ul {
+    display: block;
+    width: 200px;
+}
+
+.cabecera ul li ul li {
+    position: relative;
+    /*aplicado en apuntes pero no lo hemos dado*/
+}
+
+.cabecera ul li ul li {
+    right: 20px;
+    top: 0px;
+}
+
+.login {
+    float: right;
+}
+/*Ajustes de banner*/
+.banner {
+    background-image: url(./img/hell_paradise.avif);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: 100%;
+    object-fit: cover;
+    overflow: hidden;
+}
+
+.contenido {
+    width: 40%;
+    text-align: justify;
+    padding: 100px 0px 100px 50px;
+}
+
+.titulo1 {
+    font-family: "hell";
+    color: whitesmoke;
+    font-size: 100px;
+}
+
+.texto {
+    width: 380px;
+    color: white;
+    padding-bottom: 20px;
+}
+
+
+.btn {
+    text-decoration: none;
+    color: black;
+    background-color: orangered;
+    border: 1px solid black;
+    padding: 10px;
+}
+
+.btn:hover {
+    background-color: rgb(252, 110, 58);
+}
+
+/*Ajustes de cartas*/
+.titulo2 {
+    margin-top: 10px;
+    margin-left: 13px;
+}
+
+.cards {
+    color: whitesmoke;
+}
+
+.card {
+    display: inline-block;
+}
+
+.card img {
+    width: 270px;
+    float: left;
+    padding: 14px;
+}
+
+.nombre {
+    margin: auto 13px;
+}
+
+.letra {
+    margin: auto 13px;
+    color: grey;
+}
+/*************************************************/
+/*AJUSTES FORMULARIO*/
+.cuerpo_form {
+    text-align: center;
+    background-image: url(./img/formulario1.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: 100% 100%;
+    background-attachment: fixed;
+}
+.formulario {
+    background-color: rgb(42, 40, 40);
+    color: whitesmoke;
+    margin: 20px auto;
+    width: 600px;
+}
+.cajas{
+    padding-bottom: 20px;
+}
+
+legend {
+    font-size: 20px;
+    margin-bottom: 10px;
+}
+
+.entrada {
+    display: block;
+    width: 80%;
+    margin: 0px auto;
+    margin-top: 10px ;
+}

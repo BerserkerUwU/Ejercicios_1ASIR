@@ -1,0 +1,189 @@
+/*fuentes de web*/
+@font-face {
+    font-family: "hacker";
+    src: url(./fonts/hacking.otf);
+}
+
+/*Apartados generales*/
+body {
+    margin: 0px;
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: center;
+    background-image: url(./img/fondo2.jpg);
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    background-position: center;
+    background-attachment: fixed; /*Hace posible que la img de fondo se quede estatica, incluso si tenemos scroll, el fondo no se desplaza como el contenido, sino que permanece fijo*/
+}
+
+.header {
+    background-color: rgba(0, 0, 0, 0.85);
+    padding: 15px;
+    overflow: hidden;
+}
+
+/*Logo izquierda*/
+.logo {
+    float: left;
+    color: whitesmoke;
+    font-family: "hacker";
+    font-size: 26px;
+}
+
+/*Menu a la derecha*/
+.menu {
+    float: right;
+}
+
+/*enlaces en horizontal*/
+.menu a {
+    float: left;/*Esto es clave para hacer el menú*/
+    color: white;
+    padding: 8px 12px;
+    text-decoration: none;
+}
+
+.menu a:hover {
+    background-color: #444444;
+    border: 2px solid white;
+}
+
+/*Banner*/
+.banner {
+    width: 900px;
+    margin: 40px auto;
+    background-color: rgb(19, 208, 214);
+    padding: 40px;
+    border-radius: 20px;
+}
+
+.titulo {
+    font-family: "hacker";
+    font-size: 40px;
+    color: black;
+}
+
+.foto {
+    display: block;/*REVISAR PARA QUE SIRVE*/
+    width: 250px;
+    height: 250px;
+    margin: 25px auto;
+    border-radius: 50%;
+    border: 5px solid black;
+    box-shadow: 0 6px 18px rgba(0, 0, 0, 0.85);
+    object-fit: cover; /*REVISAR PARA QUE SIRVE*/
+}
+
+/*Descripcion*/
+.descripcion {
+    color: white;
+    text-align: center;
+}
+
+/*Cards*/
+.cards {
+    width: 1000px;
+    margin: 40px auto;
+    text-align: center;
+}
+
+.card {
+    display: inline-block;/*REVISAR PARA QUE SIRVE*/
+    width: 280px;
+    margin: 10px;
+    padding: 20px;
+    background-color: white;
+    border: 1px solid #ccc;
+    border-radius: 10px;
+}
+
+/*botones*/
+.btn {
+    display: inline-block;
+    background-color: black;
+    color: whitesmoke;
+    padding: 8px 14px;
+    text-decoration: none;
+}
+
+/*Footer*/
+.footer {
+    background-color: black;
+    color: white;
+    padding: 20px;
+    margin-top: 40px;
+}
+
+/************************************************************/
+/*Formulario*/
+/************************************************************/
+/*ID (Elementos unicos)*/
+#tituloFormulario {
+    text-align: center;
+    color: white;
+    background-color: #444444;
+    padding: 14px;
+    border-radius: 8px;
+    margin-top: -10px;
+}
+
+#formulario {
+    width: 600px;
+    margin: 20px auto;
+    background-color: white;
+    padding: 20px;
+    border-radius: 10px;
+}
+
+/*===== CLASES (reutilizables) =====*/
+.seccion {
+    border: 2px solid #3498db;
+    background-color: whitesmoke;
+    margin-bottom: 15px;
+    padding: 15px;
+    border-radius: 8px;
+}
+
+.seccion legend {
+    color: #3498db;
+    font-weight: 5px;
+}
+
+.campo {
+    margin-top: 10px;
+    display: block;
+}
+
+.entrada {
+    width: 100%;
+    padding: 6px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+.boton {
+    padding: 8px 15px;
+    border: none;
+    border-radius: 5px;
+    color: white;
+    cursor: pointer;
+}
+
+.enviar {
+    background-color: green;
+}
+
+
+.borrar {
+    background-color: red;
+}
+
+
+.boton:hover {
+    opacity: 0.8;
+}
+
+#botones {
+    text-align: center;
+    margin-top: 15px;
+}

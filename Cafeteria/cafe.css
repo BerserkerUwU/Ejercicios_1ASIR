@@ -1,0 +1,67 @@
+@font-face {
+    font-family: coffee;
+    src: url(./Coffeeday.otf);
+}
+
+body {
+    margin: 0px;
+    font-family: coffee;
+    text-align: center;
+}
+
+.cabecera {
+    background: #833e05ef;
+    color: rgb(255, 255, 255);
+    padding: 20px;
+}
+
+h1 {
+    font-family: coffee;
+    font-size: 60px;
+}
+
+.menu a {
+    display: inline-block;
+    margin: 5px;
+    padding: 8px 12px;
+    background: rgb(230, 153, 37);
+    color: white;
+    text-decoration: none;
+}
+
+.menu a:hover {
+    background: rgb(216, 212, 209);
+    color: black;
+}
+
+/*banner*/
+.banner img {
+    width: 100%;
+    height: 600px;
+    object-fit: cover;
+}
+
+/*Cards*/
+.producto {
+    padding: 40px;
+}
+
+.card {
+    display: inline-block;
+    width: 220px;
+    margin: 10px;
+    border:1px solid #ccc;
+    padding-bottom: 20px;
+}
+
+.card img {
+    width: 100%;
+    height: 100px;
+    object-fit: cover;
+}
+
+footer {
+    background:rgb(230, 153, 37);
+    color: white;
+    padding: 15px;
+}
